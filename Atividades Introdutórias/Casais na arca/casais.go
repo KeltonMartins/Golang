@@ -18,14 +18,14 @@ func main() {
 		for j := 1; j < n-1; j++ {
 			if animais[i] > 0 {
 				value := animais[j] * -1
-				if animais[i] == value && j != i && animais[i] != 0 && animais[i] != 0 {
+				if animais[i] == value && j != i && animais[i] != 0 {
 					animais[i] = 0
 					animais[j] = 0
 					casais++
 				}
 			} else {
 				value := animais[i] * -1
-				if value == animais[j] && j != i && animais[i] != 0 && animais[i] != 0 {
+				if value == animais[j] && j != i && animais[i] != 0 {
 					animais[i] = 0
 					animais[j] = 0
 					casais++
